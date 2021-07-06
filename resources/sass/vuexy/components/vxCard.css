@@ -1,0 +1,162 @@
+/*=========================================================================================
+    File Name: vxCard.scss
+    Description: Styles for vx-card component. Imported in VxCard.vue file
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.vx-card {
+  width: 100%;
+  background: #fff;
+  border-radius: .5rem;
+  display: block;
+  -webkit-box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.vx-card.no-shadow {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.vx-card.card-border {
+  border: 1px solid #e4e4e4;
+}
+
+.vx-card .vx-card__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.vx-card .vx-card__header .vx-card__title h4 + h6 {
+  margin-top: .3rem;
+}
+
+.vx-card .vx-card__header .vx-card__title h6 {
+  font-weight: 400;
+}
+
+.vx-card .vx-card__header .vx-card__actions .vx-card__action-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vx-card .vx-card__header .vx-card__actions .vx-card__action-buttons .feather-icon {
+  margin-left: .5rem;
+}
+
+.vx-card .vx-card__header .vx-card__actions svg {
+  -webkit-transition: all .25s ease-out;
+  transition: all .25s ease-out;
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
+.vx-card .vx-card__header .vx-card__actions .rotate180 > svg {
+  -webkit-transform: rotate(180deg) !important;
+          transform: rotate(180deg) !important;
+}
+
+.vx-card img.card-img-top {
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+.vx-card .vx-card__collapsible-content {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.vx-card .vx-card__collapsible-content.vs-con-loading__container {
+  overflow: unset;
+}
+
+.vx-card .vx-card__collapsible-content.collapsed {
+  opacity: 0;
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+.vx-card .vx-card__collapsible-content .card-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+}
+
+.vx-card .vx-card__collapsible-content .card-overlay > * {
+  position: relative;
+  z-index: 1;
+}
+
+.vx-card .vx-card__collapsible-content .card-overlay::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.vx-card .vx-card__collapsible-content .vx-card__body {
+  padding: 1.5rem;
+}
+
+.vx-card .vx-card__collapsible-content .vx-card__body img + .vx-card__title > h4 {
+  margin-top: 1.5rem;
+}
+
+.vx-card .vx-card__collapsible-content img {
+  display: block;
+}
+
+.vx-card .vx-card__code-container {
+  overflow: hidden;
+  -webkit-transition: opacity .15s, max-height .30s ease-out, -webkit-transform 0.35s;
+  transition: opacity .15s, max-height .30s ease-out, -webkit-transform 0.35s;
+  transition: transform 0.35s, opacity .15s, max-height .30s ease-out;
+  transition: transform 0.35s, opacity .15s, max-height .30s ease-out, -webkit-transform 0.35s;
+}
+
+.vx-card .vx-card__code-container.collapsed {
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.vx-card .vx-card__code-container .code-content {
+  margin: 1.5rem;
+}
+
+.vx-card .vx-card__code-container .code-content pre[class^="language-"] {
+  max-height: 350px;
+  border-radius: .5rem;
+  margin-bottom: 0;
+}
+
+.vx-card .vx-card__footer {
+  padding: 0 1.5rem 1.5rem;
+}
+/*# sourceMappingURL=vxCard.css.map */

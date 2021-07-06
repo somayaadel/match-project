@@ -1,0 +1,70 @@
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+:root {
+  --vs-primary: 48, 105, 96
+;
+}
+
+.menu-item li .h-nav-menu-item a {
+  padding: .75rem 1.5rem;
+}
+
+.menu-item li .h-nav-menu-item > * {
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.menu-item li .h-nav-menu-item > *:hover {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.menu-item li .h-nav-menu-item.h-nav-active-item {
+  background-color: #f6f6f6;
+}
+
+.theme-dark .menu-item li .h-nav-menu-item.h-nav-active-item {
+  background-color: #10163a;
+}
+
+.menu-link .h-nav-menu-item:hover .nav-link {
+  background: #f6f6f6;
+}
+
+.theme-dark .menu-link .h-nav-menu-item:hover .nav-link {
+  background: #262c49;
+}
+
+.menu-link .h-nav-menu-item.h-nav-active-item a {
+  background: linear-gradient(118deg, rgba(var(--vs-primary), 1), rgba(var(--vs-primary), 0.7)) !important;
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(var(--vs-primary), 0.6);
+          box-shadow: 0px 0px 6px 1px rgba(var(--vs-primary), 0.6);
+  color: #fff;
+}
+
+.menu-link .h-nav-menu-item a {
+  border-radius: 4px;
+  padding: .5rem 1.5rem;
+}
+/*# sourceMappingURL=horizontalNavMenuItem.css.map */

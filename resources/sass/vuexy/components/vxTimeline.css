@@ -1,0 +1,68 @@
+/*=========================================================================================
+  File Name: vxTimeline.scss
+  Description: Styles for vx-timeline component
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+:root {
+  --vs-primary: 48, 105, 96
+;
+}
+
+.vx-timeline {
+  margin-left: 1.5rem;
+  padding-left: 40px;
+  border-left: 2px solid #E5E8EB;
+}
+
+.theme-dark .vx-timeline {
+  border-color: #414561;
+}
+
+.vx-timeline li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.vx-timeline li .timeline-icon {
+  position: absolute;
+  top: 0;
+  left: -4.3rem;
+  border-radius: 50%;
+  padding: .75rem;
+  padding-bottom: 0.4rem;
+}
+
+.vx-timeline li .activity-desc {
+  font-size: .9rem;
+}
+
+.vx-timeline li .activity-e-time {
+  font-size: .8rem;
+}
+/*# sourceMappingURL=vxTimeline.css.map */

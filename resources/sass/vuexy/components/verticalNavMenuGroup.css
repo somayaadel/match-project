@@ -1,0 +1,125 @@
+/*=========================================================================================
+  File Name: verticalNavMenuGroup.scss
+  Description: Styles for v-nav-menu component. Imported in VerticalNavMenuGroup.vue file
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.vs-sidebar-group {
+  overflow: hidden;
+}
+
+.vs-sidebar-group .group-header {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  font-size: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.vs-sidebar-group .group-header .feather-grp-header-arrow {
+  position: absolute !important;
+  right: 8px;
+  top: 12px;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  display: inline-block;
+}
+
+.vs-sidebar-group .group-header .feather-grp-header-arrow.rotate90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.vs-sidebar-group .group-header > * {
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.vs-sidebar-group .group-header:hover > * {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.vs-sidebar-group .group-header .con-vs-chip {
+  margin-bottom: 0;
+}
+
+.vs-sidebar-group .vs-icon {
+  font-size: 1.5rem;
+}
+
+.vs-sidebar-group:hover > .group-header {
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+.vs-sidebar-group .vs-sidebar-group .group-header {
+  padding-left: 20px;
+}
+
+.vs-sidebar-group.vs-sidebar-group-open > .group-header, .vs-sidebar-group.vs-sidebar-group-active > .group-header {
+  background: #f6f6f6;
+  border-radius: 6px;
+}
+
+.vs-sidebar-group.vs-sidebar-group-open > ul, .vs-sidebar-group.vs-sidebar-group-active > ul {
+  padding-left: 0 !important;
+}
+
+.vs-sidebar-group.vs-sidebar-group-open > .group-header {
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+.vs-sidebar-group.vs-sidebar-group-open > .vs-sidebar-group-items {
+  padding-left: 0;
+}
+
+.vs-sidebar-group.vs-sidebar-group-open > .vs-sidebar-group-items .vs-sidebar--item span {
+  padding-left: 0 0 0 2rem;
+}
+
+.vs-sidebar-group.vs-sidebar-group-open > .vs-sidebar-group-items .vs-sidebar--item:last-child {
+  border-bottom: 0px;
+}
+
+.vs-sidebar-group.vs-sidebar-group-open .vs-sidebar-group {
+  overflow: visible;
+}
+
+.vs-sidebar-group .vs-sidebar-group-items {
+  opacity: 0;
+}
+
+.vs-sidebar-group .vs-sidebar-group-items .vs-sidebar--item a {
+  padding: 10px 15px 10px 20px;
+}
+
+.vs-sidebar-group .vs-sidebar-group-items .vs-sidebar--item a .feather-icon {
+  margin-right: 20px;
+}
+
+.vs-sidebar-group .vs-sidebar-group-items .vs-sidebar--item:last-child a {
+  margin-bottom: 0;
+}
+
+.vs-sidebar-group .vs-sidebar-group-items li:last-child {
+  padding-bottom: 7px;
+}
+
+.vs-sidebar-group .vs-sidebar-group-items .vs-sidebar-group span .feather-icon {
+  margin-right: 20px;
+}
+
+.vs-sidebar-group .vs-sidebar-group-items .vs-sidebar-group .feather-icon {
+  margin-right: 0px;
+}
+
+.vs-sidebar-group.disabled-item span {
+  color: #e2e2e2;
+}
+/*# sourceMappingURL=verticalNavMenuGroup.css.map */

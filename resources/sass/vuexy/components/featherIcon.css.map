@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;;;4FAO4F;AAG5F,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,WAAW;EACpB,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "featherIcon.scss"
+    ],
+    "names": [],
+    "file": "featherIcon.css"
+}

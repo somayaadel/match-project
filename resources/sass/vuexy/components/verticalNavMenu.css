@@ -1,0 +1,234 @@
+/*=========================================================================================
+  File Name: verticalNavMenu.scss
+  Description: Styles for v-nav-menu component. Imported in VerticalNavMenu.vue file
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+:root {
+  --vs-primary: 48, 105, 96
+;
+}
+
+.v-nav-menu-swipe-area {
+  position: fixed;
+  background: transparent;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 30px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.v-nav-menu {
+  white-space: nowrap;
+}
+
+.v-nav-menu .vs-sidebar--background {
+  z-index: 51000;
+}
+
+.v-nav-menu .vs-sidebar {
+  z-index: 51000;
+  position: fixed;
+}
+
+.v-nav-menu .vs-sidebar .vs-sidebar--items {
+  padding: 0;
+}
+
+.v-nav-menu .vs-sidebar.vs-sidebar-reduce {
+  max-width: 80px;
+}
+
+.v-nav-menu .vs-sidebar.vs-sidebar-reduce:hover {
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08) !important;
+          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08) !important;
+}
+
+.v-nav-menu .vs-sidebar.vs-sidebar-reduce:hover:not(.vs-sidebar-reduceNotRebound):not(.vs-sidebar-reduceNotHoverExpand) .vs-sidebar-group .group-header i {
+  display: block;
+}
+
+.v-nav-menu .vs-sidebar.vs-sidebar-reduce .vs-sidebar-group .group-header i {
+  display: none;
+}
+
+.v-nav-menu .header-sidebar {
+  padding: 20px 19px 16px 23px;
+  width: 100%;
+}
+
+.v-nav-menu .header-sidebar .logo img {
+  padding: 4px 0;
+}
+
+.v-nav-menu .header-sidebar .feather-icon svg {
+  color: #7367F0;
+}
+
+.v-nav-menu .shadow-bottom {
+  position: absolute;
+  z-index: 2;
+  height: 60px;
+  width: 100%;
+  pointer-events: none;
+  margin-top: -1.3rem;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(41%, white), color-stop(95%, rgba(255, 255, 255, 0.11)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(white 41%, rgba(255, 255, 255, 0.11) 95%, rgba(255, 255, 255, 0) 100%);
+}
+
+.v-nav-menu .scroll-area-v-nav-menu {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 100 - 69px);
+}
+
+.v-nav-menu .scroll-area-v-nav-menu > .vs-sidebar-group {
+  padding: 0 15px;
+}
+
+.v-nav-menu .scroll-area-v-nav-menu > .vs-sidebar--item {
+  padding: 0 15px;
+}
+
+.v-nav-menu .navigation-header {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.8rem;
+  margin-left: 2.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.v-nav-menu .navigation-header:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.v-nav-menu .feather-icon {
+  color: #565656;
+  margin-right: 14px;
+}
+
+.v-nav-menu .feather-icon .feather {
+  width: 20px;
+  height: 20px;
+}
+
+.v-nav-menu .con-vs-chip {
+  min-height: 24px;
+  -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.1);
+}
+
+.v-nav-menu .con-vs-chip .vs-chip--text {
+  color: #fff;
+  font-size: .8rem;
+}
+
+.v-nav-menu .vs-sidebar--item {
+  -webkit-transition: none;
+  transition: none;
+  overflow: visible !important;
+}
+
+.v-nav-menu .vs-sidebar--item:hover a {
+  color: inherit;
+}
+
+.v-nav-menu .vs-sidebar--item:hover a > * {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.v-nav-menu .vs-sidebar--item.vs-sidebar-item-active {
+  border: none !important;
+  font-weight: 400;
+  z-index: 1;
+  position: relative;
+}
+
+.v-nav-menu .vs-sidebar--item a {
+  font-size: 1rem;
+  -webkit-transition: none;
+  transition: none;
+  border-radius: 4px;
+  opacity: unset;
+  color: #626262;
+  padding: 10px 15px;
+}
+
+.v-nav-menu .vs-sidebar--item a > * {
+  -webkit-transition: -webkit-transform 0.25s ease;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+
+.v-nav-menu .vs-sidebar--item a span {
+  font-size: 15px;
+}
+
+.v-nav-menu .vs-sidebar--item.disabled-item a span {
+  color: #e2e2e2;
+}
+
+.theme-dark .v-nav-menu .vs-sidebar--item.disabled-item a {
+  opacity: .3;
+}
+
+.v-nav-menu .vs-sidebar--item .router-link-active {
+  background: linear-gradient(118deg, rgba(var(--vs-primary), 1), rgba(var(--vs-primary), 0.7));
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(var(--vs-primary), 0.7);
+          box-shadow: 0px 0px 10px 1px rgba(var(--vs-primary), 0.7);
+}
+
+.v-nav-menu .vs-sidebar--item .router-link-active .feather-icon {
+  color: #fff;
+}
+
+.v-nav-menu .vs-sidebar--item .router-link-active span {
+  color: #fff;
+}
+
+#sidebar-demo .vs-sidebar {
+  z-index: 52000;
+}
+
+#sidebar-demo .vs-sidebar-staticPosition {
+  z-index: 10000;
+}
+
+#sidebar-demo #parentx-demo-7 .parentx:not(.show-custom-sidebar) .vs-sidebar {
+  display: none;
+  z-index: 1 !important;
+}
+/*# sourceMappingURL=verticalNavMenu.css.map */

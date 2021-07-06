@@ -1,0 +1,30 @@
+/*=========================================================================================
+    File Name: colors.scss
+    Description: Color page styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+#colors-demo ul.demo-alignment li {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  cursor: default;
+  -webkit-box-shadow: 0px 15px 40px -10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 15px 40px -10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  position: relative;
+}
+/*# sourceMappingURL=colors.css.map */

@@ -1,0 +1,44 @@
+/*=========================================================================================
+    File Name: profile.scss
+    Description: Profile page styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+#profile-page .profile-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: -3.6rem;
+  left: 10%;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#profile-page .user-profile-img {
+  border: .3rem solid #fff;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+#profile-page .user-latest-image {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#profile-page .user-latest-image:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#profile-page .profile-header-nav {
+  background-color: #fff;
+}
+/*# sourceMappingURL=profile.css.map */

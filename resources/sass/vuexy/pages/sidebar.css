@@ -1,0 +1,104 @@
+/*=========================================================================================
+    File Name: sidebar.scss
+    Description: Sidebar component style
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+:root {
+  --vs-primary: 48, 105, 96
+;
+}
+
+.vs-content-sidebar.sidebarpage .vs-sidebar .vs-sidebar--header .header-sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.vs-content-sidebar.sidebarpage .vs-sidebar .vs-sidebar--header .header-sidebar h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.vs-content-sidebar.sidebarpage .vs-sidebar .vs-sidebar--header .header-sidebar h4 > button {
+  margin-left: 10px;
+}
+
+.vs-content-sidebar.sidebarpage .vs-sidebar .vs-sidebar--footer .footer-sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.vs-content-sidebar.sidebarpage .vs-sidebar .vs-sidebar--footer .footer-sidebar > button {
+  border: 0px solid rgba(0, 0, 0, 0) !important;
+  border-left: 1px solid rgba(0, 0, 0, 0.07) !important;
+  border-radius: 0px !important;
+}
+
+.vs-content-sidebar.sidebarpage .vs-sidebar .vs-sidebar--item i.material-icons {
+  font-size: 1.2rem;
+}
+
+.vs-content-sidebar.sidebarpage.sidebar-demo-parent .vs-sidebar {
+  z-index: 10000 !important;
+}
+
+.vs-content-sidebar.sidebarpage .vs-sidebar--background {
+  z-index: 52000;
+}
+
+.theme-dark .vs-content-sidebar.sidebarpage.bordered-sidebar .vs-sidebar {
+  border: 1px solid #414561;
+}
+/*# sourceMappingURL=sidebar.css.map */

@@ -1,0 +1,158 @@
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+:root {
+  --vs-primary: 48, 105, 96
+;
+}
+
+.vx-input-group .vs-con-textarea {
+  margin-bottom: 0;
+}
+
+.vx-input-group .vx-input-group-prepend {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text:not(:first-child) {
+  border-left: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text.btn-addon .vs-button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.vx-input-group .vx-input-group-prepend .prepend-text.btn-addon .vs-button:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+}
+
+.vx-input-group .vx-input-group-append {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.vx-input-group .vx-input-group-append .append-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vx-input-group .vx-input-group-append .append-text:not(:first-child) {
+  border-left: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.vx-input-group .vx-input-group-append .append-text:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.vx-input-group .vx-input-group-append .append-text:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.vx-input-group .vx-input-group-append .append-text:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.vx-input-group .vx-input-group-append .append-text.btn-addon .vs-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.vx-input-group .vx-input-group-append .append-text.btn-addon .vs-button:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+
+.vx-input-group .prepend-text,
+.vx-input-group .append-text {
+  color: #fff;
+}
+
+.vx-input-group .prepend-text:not(.btn-addon),
+.vx-input-group .append-text:not(.btn-addon) {
+  border-radius: 6px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.vx-input-group .prepend-text.btn-addon .vs-button,
+.vx-input-group .append-text.btn-addon .vs-button {
+  height: 100%;
+  padding: 0 1.5rem !important;
+}
+
+.vx-input-group .vx-input-group-default:not(:first-child) input,
+.vx-input-group .vx-input-group-default:not(:first-child) .vs-con-textarea {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.vx-input-group .vx-input-group-default .vs-input {
+  width: 100%;
+}
+
+.vx-input-group .vx-input-group-default:not(:last-child) input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/*# sourceMappingURL=vxInputGroup.css.map */

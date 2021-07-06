@@ -1,0 +1,126 @@
+/*=========================================================================================
+    File Name: email.scss
+    Description: Email app's styles. This is imported in Email.vue file
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+#email-app .vs-sidebar--background {
+  position: absolute;
+}
+
+#email-app .select-all-chexkbox .vs-checkbox {
+  margin-right: 0.8rem;
+}
+
+#email-app .email-filter-scroll-area {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: calc(100% - 75px);
+}
+
+#email-app .email-content-scroll-area {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+#email-app .scroll-area-mail-content {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: calc(100% - 6.3%);
+}
+
+#email-app .email__mails .mail__opened-mail {
+  background-color: #eee;
+}
+
+#email-app .email__mails .email__mail-item {
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+#email-app .email__mails .email__mail-item:not(:first-of-type) .mail__mail-item {
+  border-top: 1px solid #dae1e7;
+}
+
+#email-app .email__mails .email__mail-item .mail__mail-item {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#email-app .email__mails .email__mail-item .mail__mail-item:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-box-shadow: 0px 3px 10px 0px #ccc;
+          box-shadow: 0px 3px 10px 0px #ccc;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#email-app .email__mails .email__mail-item .mail__mail-item .feather-icon {
+  color: #9c9c9c;
+}
+
+#email-app .email-view-sidebar .vs-sidebar {
+  background-color: #f8f8f8 !important;
+  border-left: 1px solid #dae1e7;
+}
+
+#email-app .email-view-sidebar .email-header {
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid #eee;
+  z-index: 1;
+  position: relative;
+}
+
+#email-app .email-view-sidebar .open-mail-label {
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+#email-app .email-view-sidebar .mail__attachment .vs-chip--text {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.con-vs-dialog.email-compose .vs-dialog {
+  max-width: 530px;
+}
+
+.con-vs-dialog.email-compose .vs-dialog .vs-dialog-text {
+  padding: 0;
+}
+
+.con-vs-dialog.email-compose .vs-dialog .vs-dialog-text .scroll-area {
+  max-height: 75vh;
+}
+
+.con-vs-dialog.email-compose .vs-dialog .vs-dialog-text .compose-mail-attachment .con-input-upload {
+  margin: 0;
+}
+
+.con-vs-dialog.email-compose .con-img-upload .con-input-upload {
+  height: 2.5rem;
+  width: 100%;
+}
+
+.con-vs-dialog.email-compose .con-img-upload .img-upload {
+  margin: 0;
+  margin-bottom: .5rem;
+  margin-right: 1.5rem;
+}
+
+.con-vs-dialog.email-compose .quill-editor {
+  margin-bottom: 1.5rem;
+}
+
+.con-vs-dialog.email-compose .ql-editor {
+  height: 150px;
+}
+/*# sourceMappingURL=email.css.map */

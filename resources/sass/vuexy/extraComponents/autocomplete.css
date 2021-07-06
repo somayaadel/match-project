@@ -1,0 +1,91 @@
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+:root {
+  --vs-primary: 48, 105, 96
+;
+}
+
+pre.selected.hljs {
+  margin: 8px 0;
+  height: 295px;
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.vue-simple-suggest.designed .input-wrapper input {
+  color: inherit;
+  position: relative;
+  padding: .7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  width: 100%;
+}
+
+.vue-simple-suggest.designed.focus .input-wrapper input {
+  border: 1px solid rgba(var(--vs-primary), 1) !important;
+}
+
+.vue-simple-suggest.designed .suggestions {
+  border-radius: 5px;
+}
+
+.vue-simple-suggest.designed .suggestions .suggest-item {
+  padding: .8rem 1rem;
+}
+
+.vue-simple-suggest.designed .suggestions .suggest-item.hover, .vue-simple-suggest.designed .suggestions .suggest-item.selected {
+  background-color: rgba(var(--vs-primary), 1) !important;
+}
+
+.theme-dark .vx-card .vue-simple-suggest input {
+  background: #262c49 !important;
+}
+
+.theme-dark .vx-card .vue-simple-suggest .suggestions {
+  background: #262c49 !important;
+}
+
+.theme-dark .vx-card pre.selected.hljs {
+  border-color: #414561 !important;
+}
+
+.theme-dark .vue-simple-suggest input {
+  background: #10163a !important;
+}
+
+.theme-dark .vue-simple-suggest .suggestions {
+  background: #10163a !important;
+}
+
+.theme-dark pre.selected.hljs {
+  border-color: #414561 !important;
+}
+/*# sourceMappingURL=autocomplete.css.map */

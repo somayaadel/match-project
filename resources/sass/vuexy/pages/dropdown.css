@@ -1,0 +1,44 @@
+/*=========================================================================================
+    File Name: dropdown.scss
+    Description: Dropdown page styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.dropdown-login {
+  z-index: 55000;
+}
+
+.dropdown-login .vs-dropdown--custom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 20px !important;
+}
+
+.dropdown-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown-button-container .btnx {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.dropdown-button-container .btn-drop {
+  border-radius: 0px 5px 5px 0px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+/*# sourceMappingURL=dropdown.css.map */
